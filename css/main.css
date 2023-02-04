@@ -420,7 +420,7 @@ img {
 /* footer */
 
 .footer {
-  width: 100%;
+  max-width: 300px;
   margin-top: 50px;
   text-align: center;
   height: 150px;

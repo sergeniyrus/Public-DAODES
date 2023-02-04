@@ -420,17 +420,22 @@ img {
 /* footer */
 
 .footer {
+  width: 100%;
   margin-top: 50px;
   text-align: center;
+  height: 150px;
 }
 
 .icons {
   display: flex;
-  /* justify-content: space-between; */
+  justify-content: center;
   align-content: center;
 }
 
 .icons-img {
   width: 100%;
   height: 100%;
+  margin-left: 10px;
+  margin-right: 10px;
+
 }

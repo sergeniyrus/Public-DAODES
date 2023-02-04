@@ -33,6 +33,7 @@ img {
   height: auto;
   margin: 0;
 }
+
 .header-cont {
   display: grid;
   gap: 1%;
@@ -64,6 +65,7 @@ img {
   justify-items: center;
   align-items: center;
 }
+
 .header-menu-cont-bord {
   background: rgba(40, 61, 142, 0.78);
   border: 1px solid rgb(187, 246, 242);
@@ -72,16 +74,19 @@ img {
   width: 100%;
   height: auto;
 }
+
 .header-menu-cont {
   list-style: none;
   display: flex;
   justify-content: space-between;
   align-content: center;
 }
-.header-menu-cont > li {
+
+.header-menu-cont>li {
   margin-right: 12px;
   margin-left: 12px;
 }
+
 .header-menu a {
   font-family: "Crimson Text", serif;
   color: #ffffff;
@@ -89,6 +94,7 @@ img {
   font-size: 34px;
   font-weight: bold;
 }
+
 .header-menu a:hover {
   color: #dae931;
 }
@@ -112,6 +118,7 @@ img {
   flex-direction: row;
   justify-content: center;
 }
+
 .title-1 {
   font-family: Noto Serif;
   font-size: 40px;
@@ -149,37 +156,47 @@ img {
   .header-menu a {
     font-size: 28px;
   }
+
   .title-1 {
     font-size: 44px;
   }
+
   .title-2 {
     font-size: 62px;
   }
+
   .header-cont {
     grid-template-rows: 100px auto;
   }
+
   .run-word {
     margin-top: 90px;
     font-size: 30px;
   }
 }
+
 @media (max-width: 1470px) {
   .header-menu a {
     font-size: 22px;
   }
-  .header-menu-cont > li {
+
+  .header-menu-cont>li {
     margin-right: 10px;
     margin-left: 10px;
   }
+
   .title-1 {
     font-size: 34px;
   }
+
   .title-2 {
     font-size: 42px;
   }
+
   .header-cont {
     grid-template-rows: 100px auto;
   }
+
   .run-word {
     margin-top: 80px;
     font-size: 26px;
@@ -196,19 +213,24 @@ img {
   .header-menu a {
     font-size: 18px;
   }
-  .header-menu-cont > li {
+
+  .header-menu-cont>li {
     margin-right: 8px;
     margin-left: 8px;
   }
+
   .title-1 {
     font-size: 32px;
   }
+
   .title-2 {
     font-size: 38px;
   }
+
   .header-cont {
     grid-template-rows: 80px auto;
   }
+
   .run-word {
     margin-top: 85px;
   }
@@ -218,19 +240,24 @@ img {
   .header-menu a {
     font-size: 14px;
   }
-  .header-menu-cont > li {
+
+  .header-menu-cont>li {
     margin-right: 6px;
     margin-left: 6px;
   }
+
   .title-1 {
     font-size: 26px;
   }
+
   .title-2 {
     font-size: 30px;
   }
+
   .header-cont {
     grid-template-rows: 60px auto;
   }
+
   .run-word {
     margin-top: 80px;
   }
@@ -240,19 +267,24 @@ img {
   .header-menu a {
     font-size: 12px;
   }
-  .header-menu-cont > li {
+
+  .header-menu-cont>li {
     margin-right: 4px;
     margin-left: 4px;
   }
+
   .title-1 {
     font-size: 16px;
   }
+
   .title-2 {
     font-size: 22px;
   }
+
   .header-cont {
     grid-template-rows: 40px auto;
   }
+
   .run-word {
     margin-top: 40px;
   }
@@ -262,19 +294,24 @@ img {
   .header-menu a {
     font-size: 8px;
   }
-  .header-menu-cont > li {
+
+  .header-menu-cont>li {
     margin-right: 3px;
     margin-left: 3px;
   }
+
   .title-1 {
     font-size: 10px;
   }
+
   .title-2 {
     font-size: 14px;
   }
+
   .header-cont {
     grid-template-rows: 20px auto;
   }
+
   .run-word {
     margin-top: 40px;
   }
@@ -299,18 +336,23 @@ img {
 
   border-radius: 20px;
 }
+
 .windows a {
   text-decoration: none;
 }
+
 .windows-title a {
   color: #ffffff;
 }
+
 .windows-title a:hover {
   color: #dae931;
 }
+
 .windows-new-title a {
   color: black;
 }
+
 .windows-new-title a:hover {
   color: rgb(255, 0, 0);
 }
@@ -318,9 +360,11 @@ img {
 .left {
   box-shadow: -10px -10px 10px rgba(229, 202, 233, 0.75);
 }
+
 .rigth {
   box-shadow: 10px -10px 20px rgba(229, 202, 233, 0.75);
 }
+
 .windows-title {
   text-align: center;
   margin-top: 10px;
@@ -336,6 +380,7 @@ img {
   grid-template-columns: auto auto;
   grid-template-rows: 25px 120px;
 }
+
 /* название мини новости */
 .windows-new-title {
   margin: 5px 0 0 0;
@@ -348,6 +393,7 @@ img {
   justify-items: center;
   align-items: center;
 }
+
 .windows-new-imeges {
   margin: 10px;
   width: 124px;
@@ -359,6 +405,7 @@ img {
   justify-items: center;
   align-items: center;
 }
+
 .windows-new-text {
   margin: 10px;
   color: black;
@@ -368,4 +415,23 @@ img {
   grid-column-end: 2;
   justify-items: center;
   align-items: center;
+}
+
+/* footer */
+
+.footer {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.icons {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
+
+.icons-img {
+  width: 100%;
+  height: 100%;
 }

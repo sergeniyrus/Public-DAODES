@@ -82,7 +82,7 @@ img {
   align-content: center;
 }
 
-.header-menu-cont>li {
+.header-menu-cont > li {
   margin-right: 12px;
   margin-left: 12px;
 }
@@ -180,7 +180,7 @@ img {
     font-size: 22px;
   }
 
-  .header-menu-cont>li {
+  .header-menu-cont > li {
     margin-right: 10px;
     margin-left: 10px;
   }
@@ -214,7 +214,7 @@ img {
     font-size: 18px;
   }
 
-  .header-menu-cont>li {
+  .header-menu-cont > li {
     margin-right: 8px;
     margin-left: 8px;
   }
@@ -241,7 +241,7 @@ img {
     font-size: 14px;
   }
 
-  .header-menu-cont>li {
+  .header-menu-cont > li {
     margin-right: 6px;
     margin-left: 6px;
   }
@@ -268,7 +268,7 @@ img {
     font-size: 12px;
   }
 
-  .header-menu-cont>li {
+  .header-menu-cont > li {
     margin-right: 4px;
     margin-left: 4px;
   }
@@ -295,7 +295,7 @@ img {
     font-size: 8px;
   }
 
-  .header-menu-cont>li {
+  .header-menu-cont > li {
     margin-right: 3px;
     margin-left: 3px;
   }
@@ -421,7 +421,7 @@ img {
 
 .footer {
   max-width: 300px;
-  margin-top: 50px;
+  margin: 50px auto 0 auto;
   text-align: center;
   height: 150px;
 }
@@ -438,9 +438,9 @@ img {
   height: 100%;
   margin-left: 10px;
   margin-right: 10px;
-
 }
 
 .copy {
+  margin-top: 30px;
   bottom: 0;
 }

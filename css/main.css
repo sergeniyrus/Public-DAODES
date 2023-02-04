@@ -430,6 +430,7 @@ img {
   display: flex;
   justify-content: center;
   align-content: center;
+  justify-items: center;
 }
 
 .icons-img {

@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Сайт Портфолио</title>
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/media.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;600&family=Montserrat:ital,wght@0,400;0,700;1,600&family=Noto+Serif:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/jquery.marquee/1.4.0/jquery.marquee.min.js"></script>
+    <script>
+      $(function () {
+        $(".marquee").marquee({
+          duration: 7000,
+          startVisible: true,
+          duplicated: true,
+        });
+      });
+    </script>
+    <header class="header">
+      <div class="header-cont">
+        <!-- блок с логотипом -->
+        <div class="header-logo">
+          <img src="./img/daodes.jpg" alt="" />
+        </div>
+        <!-- // блок с логотипом -->
+
+        <!-- Верхнее меню -->
+        <div class="header-menu">
+          <div class="header-menu-cont-bord">
+            <ul class="header-menu-cont">
+              <li class="header-menu-1">
+                <a href="#" title="Главная">Home</a>
+              </li>
+              <li class="header-menu-2">
+                <a href="#" title="Новости">News Blog</a>
+              </li>
+              <li class="header-menu-3">
+                <a href="#" title="????">DAO Club</a>
+              </li>
+              <li class="header-menu-4">
+                <a href="#" title="Форум">Forum</a>
+              </li>
+              <li class="header-menu-5">
+                <a href="#" title="Дорожная карта">Road Map</a>
+              </li>
+              <li class="header-menu-6">
+                <a href="#" title="Белая Бумага">White Paper</a>
+              </li>
+              <li class="header-menu-7">
+                <a href="#" title="Вход">Log in</a>
+              </li>
+              <li class="header-menu-8">
+                <a href="#" title="Регистрация">Sign in </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- // Верхнее меню -->
+
+        <!-- описание сайта можно сделать динамичный вывод -->
+
+        <div class="header-title">
+          <span class="title-1">
+            Децентрализованная Автономная Организация Децентрализованных Эко
+            Систем DAO DES
+          </span>
+        </div>
+        <!-- // описание сайта можно -->
+      </div>
+      <div class="run-word">
+        <p class="marquee" style="overflow: hidden">
+          Участников в Дао -5. Участников всего - 5. Вопросов принято -100.
+          Капитализация 1B$ Курс Des/Btc 0.56/1
+        </p>
+      </div>
+    </header>
+    <main>
+      <div class="main-content">
+        <!-- информационные окна коротких событий -->
+        <div class="windows left">
+          <div class="windows-title">
+            <h2><a href="#">Последние новости</a></h2>
+          </div>
+          <div class="windows-new">
+            <div class="windows-new-title">
+              <h3><a href="#">Конкурс дизайнеров</a></h3>
+            </div>
+            <div class="windows-new-imeges">
+              <img src="./img/logo_daodes_3.jpg" alt="" />
+            </div>
+            <div class="windows-new-text">
+              <p>
+                Закончился срок конкурса по дизайну фирменного стиля, ждём
+                результаты голосования и объявления победителя, кто же этот
+                мастер , который заберёт приз в 10000 монет?
+              </p>
+            </div>
+          </div>
+          <div class="windows-new">
+            <div class="windows-new-title"><h3>Конкурс дизайнеров</h3></div>
+            <div class="windows-new-imeges">
+              <img src="./img/logo_daodes_3.jpg" alt="" />
+            </div>
+            <div class="windows-new-text">
+              <p>
+                Закончился срок конкурса по дизайну фирменного стиля, ждём
+                результаты голосования и объявления победителя, кто же этот
+                мастер , который заберёт приз в 10000 монет?
+              </p>
+            </div>
+          </div>
+          <div class="windows-new">
+            <div class="windows-new-title"><h3>Конкурс дизайнеров</h3></div>
+            <div class="windows-new-imeges">
+              <img src="./img/logo_daodes_3.jpg" alt="" />
+            </div>
+            <div class="windows-new-text">
+              <p>
+                Закончился срок конкурса по дизайну фирменного стиля, ждём
+                результаты голосования и объявления победителя, кто же этот
+                мастер , который заберёт приз в 10000 монет?
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- левое окно -->
+        <div class="windows rigth">
+          <div class="windows-title">
+            <h2><a href="#">Решаемые вопросы</a></h2>
+          </div>
+          <div class="windows-new">
+            <div class="windows-new-title">
+              <h3><a href="#">Конкурс дизайнеров</a></h3>
+            </div>
+            <div class="windows-new-imeges">
+              <img src="./img/logo_daodes_3.jpg" alt="" />
+            </div>
+            <div class="windows-new-text">
+              <p>
+                Закончился срок конкурса по дизайну фирменного стиля, ждём
+                результаты голосования и объявления победителя, кто же этот
+                мастер , который заберёт приз в 10000 монет?
+              </p>
+            </div>
+          </div>
+          <div class="windows-new">
+            <div class="windows-new-title"><h3>Конкурс дизайнеров</h3></div>
+            <div class="windows-new-imeges">
+              <img src="./img/logo_daodes_3.jpg" alt="" />
+            </div>
+            <div class="windows-new-text">
+              <p>
+                Закончился срок конкурса по дизайну фирменного стиля, ждём
+                результаты голосования и объявления победителя, кто же этот
+                мастер , который заберёт приз в 10000 монет?
+              </p>
+            </div>
+          </div>
+          <div class="windows-new">
+            <div class="windows-new-title"><h3>Конкурс дизайнеров</h3></div>
+            <div class="windows-new-imeges">
+              <img src="./img/logo_daodes_3.jpg" alt="" />
+            </div>
+            <div class="windows-new-text">
+              <p>
+                Закончился срок конкурса по дизайну фирменного стиля, ждём
+                результаты голосования и объявления победителя, кто же этот
+                мастер , который заберёт приз в 10000 монет?
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- // -->
+      </div>
+    </main>
+  </body>
+</html>

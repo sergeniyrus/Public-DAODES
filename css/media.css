@@ -1,0 +1,166 @@
+/* адаптация отображения под разрешения экранов */
+/* 1680 */
+@media (max-width: 1680px) {
+  .header-menu a {
+    font-size: 28px;
+  }
+
+  .title-1 {
+    font-size: 44px;
+  }
+
+  .title-2 {
+    font-size: 62px;
+  }
+
+  .header-cont {
+    grid-template-rows: 100px auto;
+  }
+
+  .run-word {
+    margin-top: 90px;
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 1470px) {
+  .header-menu a {
+    font-size: 22px;
+  }
+
+  .header-menu-cont > li {
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+
+  .title-1 {
+    font-size: 34px;
+  }
+
+  .title-2 {
+    font-size: 42px;
+  }
+
+  .header-cont {
+    grid-template-rows: 100px auto;
+  }
+
+  .run-word {
+    margin-top: 80px;
+    font-size: 26px;
+  }
+}
+
+/* @media (max-width: 1280px) {
+  .run-word {
+    margin-top: 60px;
+  }
+} */
+
+@media (max-width: 1280px) {
+  .header-menu a {
+    font-size: 18px;
+  }
+
+  .header-menu-cont > li {
+    margin-right: 8px;
+    margin-left: 8px;
+  }
+
+  .title-1 {
+    font-size: 32px;
+  }
+
+  .title-2 {
+    font-size: 38px;
+  }
+
+  .header-cont {
+    grid-template-rows: 80px auto;
+  }
+
+  .run-word {
+    margin-top: 85px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .header-menu a {
+    font-size: 14px;
+  }
+
+  .header-menu-cont > li {
+    margin-right: 6px;
+    margin-left: 6px;
+  }
+
+  .title-1 {
+    font-size: 26px;
+  }
+
+  .title-2 {
+    font-size: 30px;
+  }
+
+  .header-cont {
+    grid-template-rows: 60px auto;
+  }
+
+  .run-word {
+    margin-top: 80px;
+  }
+}
+
+@media (max-width: 720px) {
+  .header-menu a {
+    font-size: 12px;
+  }
+
+  .header-menu-cont > li {
+    margin-right: 4px;
+    margin-left: 4px;
+  }
+
+  .title-1 {
+    font-size: 16px;
+  }
+
+  .title-2 {
+    font-size: 22px;
+  }
+
+  .header-cont {
+    grid-template-rows: 40px auto;
+  }
+
+  .run-word {
+    margin-top: 40px;
+  }
+}
+
+@media (max-width: 320px) {
+  .header-menu a {
+    font-size: 8px;
+  }
+
+  .header-menu-cont > li {
+    margin-right: 3px;
+    margin-left: 3px;
+  }
+
+  .title-1 {
+    font-size: 10px;
+  }
+
+  .title-2 {
+    font-size: 14px;
+  }
+
+  .header-cont {
+    grid-template-rows: 20px auto;
+  }
+
+  .run-word {
+    margin-top: 40px;
+  }
+}
